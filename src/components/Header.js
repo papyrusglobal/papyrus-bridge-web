@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from  'react-router-dom'
-import logo from '../assets/images/logos/logo-top@2x.png'
+import logo from '../assets/images/logos/logo-papyrus.png'
 import menuIcon from '../assets/images/icons/icon-menu.svg'
 import menuOpenIcon from '../assets/images/icons/icon-close.svg'
 import { Wallet } from './Wallet'
@@ -37,8 +37,9 @@ export class Header  extends React.Component {
       <header className="header">
         {showMobileMenu && (<div className="header-mobile-menu-container">{getMobileMenuLinks(onMenuToggle, withoutEvents)}</div>)}
         <div className="container">
-          <Link to="/" onClick={showMobileMenu ? onMenuToggle : null}><img className="header-logo" src={logo}
-                                                                           alt=""/></Link>
+          <Link to="/" onClick={showMobileMenu ? onMenuToggle : null}>
+            <img className="header-logo" src={logo} alt=""/>
+          </Link>
           <div className="links_container">
             {withoutEvents ? null :
               <Link to='/events' className="link">

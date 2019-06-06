@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap');
+
 html,
 body,
 p, h1, h2, h3 {
@@ -16,8 +18,8 @@ body {
   width: 100%;
   box-sizing: border-box;
   padding-bottom: $footer-height_desktop;
+  font-family: 'Work Sans', sans-serif;
   background-color: #ffffff;
-  font-family: 'Nunito', sans-serif;
 
   @media screen and (max-width: $tablet-width) {
     padding-bottom: $footer-height_mobile;
@@ -25,7 +27,7 @@ body {
 }
 
 a {
-  color: #08b3f2;
+  color: $color-blue;
   text-decoration: none;
 
   &:hover {
@@ -103,12 +105,12 @@ strong {
   .datablock-value {
     font-size: 30px;
     font-weight: bold;
-    color: #5c34a2;
+    color: $color-blue;
   }
 
   .datablock-type {
     font-size: 18px;
-    color: #5c34a2;
+    color: $color-blue;
     margin-left: 10px;
   }
 

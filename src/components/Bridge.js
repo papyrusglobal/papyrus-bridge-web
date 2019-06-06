@@ -11,8 +11,8 @@ import { NetworkDetails } from './NetworkDetails'
 import { TransferAlert } from './TransferAlert'
 import homeLogoPurple from '../assets/images/logos/logo-poa-sokol-purple@2x.png'
 import foreignLogoPurple from '../assets/images/logos/logo-poa-20-purple@2x.png'
-import leftImage from '../assets/images/pattern-1.png'
-import rightImage from '../assets/images/pattern-2.png'
+// import leftImage from '../assets/images/pattern-1.png'
+// import rightImage from '../assets/images/pattern-2.png'
 import { BRIDGE_MODES } from '../stores/utils/bridgeMode'
 
 @inject("RootStore")
@@ -297,7 +297,10 @@ export class Bridge extends React.Component {
             labelName={reverse ? foreignStore.symbol : homeStore.symbol} />
           <div className="bridge-transfer">
             <div className="left-image-wrapper">
-              <img className="left-image" src={leftImage} alt=""/>
+              <div className="left-image">
+                <div style={{width: 238}}></div>
+              </div>
+              {/*<img className="left-image" src={leftImage} alt=""/>*/}
             </div>
             <div className="bridge-transfer-content">
               <div className="bridge-transfer-content-background">
@@ -322,7 +325,10 @@ export class Bridge extends React.Component {
               </div>
             </div>
             <div className="right-image-wrapper">
-              <img className="right-image" src={rightImage} alt=""/>
+              <div className="right-image">
+                <div style={{width: 238}}></div>
+              </div>
+              {/*<img className="right-image" src={rightImage} alt=""/>*/}
             </div>
           </div>
           <BridgeAddress

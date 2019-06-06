@@ -1,3 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="10" height="12">
-    <path fill="#5C34A2" fill-rule="evenodd" d="M0 0v12l10-6L0 0z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="14px" viewBox="0 0 11 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>corner-2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="corner-2" transform="translate(0.000000, 1.000000)" fill="#112094">
+            <polygon id="Path" points="0 0 0 12 10 6"></polygon>
+        </g>
+    </g>
 </svg>

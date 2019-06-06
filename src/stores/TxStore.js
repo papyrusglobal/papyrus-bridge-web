@@ -24,8 +24,8 @@ class TxStore {
     this.foreignStore = rootStore.foreignStore
     this.homeStore = rootStore.homeStore
     this.rootStore = rootStore
-    this.homeRequiredBlockConfirmations = parseInt(process.env.REACT_APP_HOME_REQUIRED_BLOCK_CONFIRMATIONS)
-    this.foreignRequiredBlockConfirmations = parseInt(process.env.REACT_APP_FOREIGN_REQUIRED_BLOCK_CONFIRMATIONS)
+    this.homeRequiredBlockConfirmations = parseInt(process.env.REACT_APP_HOME_REQUIRED_BLOCK_CONFIRMATIONS, 10)
+    this.foreignRequiredBlockConfirmations = parseInt(process.env.REACT_APP_FOREIGN_REQUIRED_BLOCK_CONFIRMATIONS, 10)
   }
 
   @action

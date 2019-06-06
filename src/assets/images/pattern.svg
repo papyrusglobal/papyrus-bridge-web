@@ -1,22 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360">
-    <path fill="#90E1D9" fill-rule="evenodd" d="M120 300h60v60h-60v-60z"/>
-    <path fill="#5B33A2" fill-rule="evenodd" d="M120 360c-33.137 0-60-26.863-60-60h60v60z"/>
-    <path fill="#90E1D9" fill-rule="evenodd" d="M60 240h60v60H60v-60z"/>
-    <path fill="#5B33A2" fill-rule="evenodd" d="M120 240H60v-60c33.137 0 60 26.863 60 60z"/>
-    <path fill="#9987FC" fill-rule="evenodd" d="M60 240c-33.137 0-60-26.863-60-60h60v60z"/>
-    <path fill="#90E1D9" fill-rule="evenodd" d="M0 180c0-33.137 26.863-60 60-60v60H0z"/>
-    <path fill="#5B33A2" fill-rule="evenodd" d="M60 180v-60h60c0 33.137-26.863 60-60 60z"/>
-    <path fill="#61DC97" fill-rule="evenodd" d="M60 60h60v60H60V60z"/>
-    <path fill="#9987FC" fill-rule="evenodd" d="M60 60c0-33.137 26.863-60 60-60v60H60z"/>
-    <path fill="#5B33A2" fill-rule="evenodd" d="M120 0h60v60h-60V0z"/>
-    <path fill="#9987FC" fill-rule="evenodd" d="M300 300h60v60h-60v-60z"/>
-    <path fill="#5B33A2" fill-rule="evenodd" d="M300 360c-33.137 0-60-26.863-60-60h60v60z"/>
-    <path fill="#61DC97" fill-rule="evenodd" d="M240 240h60v60h-60v-60z"/>
-    <path fill="#5B33A2" fill-rule="evenodd" d="M300 240h-60v-60c33.137 0 60 26.863 60 60z"/>
-    <path fill="#9987FC" fill-rule="evenodd" d="M240 240c-33.137 0-60-26.863-60-60h60v60z"/>
-    <path fill="#5B33A2" fill-rule="evenodd" d="M180 180c0-33.137 26.863-60 60-60v60h-60z"/>
-    <path fill="#90E1D9" fill-rule="evenodd" d="M240 180v-60h60c0 33.137-26.863 60-60 60z"/>
-    <path fill="#61DC97" fill-rule="evenodd" d="M240 60h60v60h-60V60z"/>
-    <path fill="#5B33A2" fill-rule="evenodd" d="M240 60c0-33.137 26.863-60 60-60v60h-60z"/>
-    <path fill="#90E1D9" fill-rule="evenodd" d="M300 0h60v60h-60V0z"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="360px" viewBox="0 0 360 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>pattern</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pattern">
+            <polygon id="Path" fill="#FFD7B5" points="120 300 180 300 180 360 120 360"></polygon>
+            <path d="M120,360 C86.863,360 60,333.137 60,300 L120,300 L120,360 Z" id="Path" fill="#112094"></path>
+            <polygon id="Path" fill="#FFD7B5" points="60 240 120 240 120 300 60 300"></polygon>
+            <path d="M120,240 L60,240 L60,180 C93.137,180 120,206.863 120,240 Z" id="Path" fill="#112094"></path>
+            <path d="M60,240 C26.863,240 0,213.137 0,180 L60,180 L60,240 Z" id="Path" fill="#94A0FF"></path>
+            <path d="M0,180 C0,146.863 26.863,120 60,120 L60,180 L0,180 Z" id="Path" fill="#FFD7B5"></path>
+            <path d="M60,180 L60,120 L120,120 C120,153.137 93.137,180 60,180 Z" id="Path" fill="#112094"></path>
+            <polygon id="Path" fill="#EF8933" points="60 60 120 60 120 120 60 120"></polygon>
+            <path d="M60,60 C60,26.863 86.863,0 120,0 L120,60 L60,60 Z" id="Path" fill="#94A0FF"></path>
+            <polygon id="Path" fill="#112094" points="120 0 180 0 180 60 120 60"></polygon>
+            <polygon id="Path" fill="#94A0FF" points="300 300 360 300 360 360 300 360"></polygon>
+            <path d="M300,360 C266.863,360 240,333.137 240,300 L300,300 L300,360 Z" id="Path" fill="#112094"></path>
+            <polygon id="Path" fill="#EF8933" points="240 240 300 240 300 300 240 300"></polygon>
+            <path d="M300,240 L240,240 L240,180 C273.137,180 300,206.863 300,240 Z" id="Path" fill="#112094"></path>
+            <path d="M240,240 C206.863,240 180,213.137 180,180 L240,180 L240,240 Z" id="Path" fill="#94A0FF"></path>
+            <path d="M180,180 C180,146.863 206.863,120 240,120 L240,180 L180,180 Z" id="Path" fill="#112094"></path>
+            <path d="M240,180 L240,120 L300,120 C300,153.137 273.137,180 240,180 Z" id="Path" fill="#FFD7B5"></path>
+            <polygon id="Path" fill="#EF8933" points="240 60 300 60 300 120 240 120"></polygon>
+            <path d="M240,60 C240,26.863 266.863,0 300,0 L300,60 L240,60 Z" id="Path" fill="#112094"></path>
+            <polygon id="Path" fill="#FFD7B5" points="300 0 360 0 360 60 300 60"></polygon>
+        </g>
+    </g>
 </svg>

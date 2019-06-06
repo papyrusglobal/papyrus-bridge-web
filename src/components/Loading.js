@@ -11,8 +11,8 @@ export class Loading extends React.Component {
     const { alertStore, web3Store } = this.props.RootStore
     const { loadingStepIndex, loadingSteps, blockConfirmations } = alertStore
     const requiredConfirmations = web3Store.metamaskNet.id === web3Store.homeNet.id.toString()
-      ? parseInt(process.env.REACT_APP_HOME_REQUIRED_BLOCK_CONFIRMATIONS)
-      : parseInt(process.env.REACT_APP_FOREIGN_REQUIRED_BLOCK_CONFIRMATIONS)
+      ? parseInt(process.env.REACT_APP_HOME_REQUIRED_BLOCK_CONFIRMATIONS, 10)
+      : parseInt(process.env.REACT_APP_FOREIGN_REQUIRED_BLOCK_CONFIRMATIONS, 10)
     const style = alertStore.showLoading ? {display: 'flex'} : {display: 'none'}
     let progress = 100
     if (loadingStepIndex !== 3) {
