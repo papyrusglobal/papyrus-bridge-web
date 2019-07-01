@@ -32,7 +32,7 @@
     .bridge-home-container {
       width: 9%;
       min-width: 60px;
-      background-color: #ffffff;
+      background-color: $bg-color;
 
       .home-logo-container {
         height: 100%;
@@ -58,7 +58,7 @@
     .home-address-container {
       width: 92%;
       border-bottom-left-radius: 10px;
-      background-color: #ffffff;
+      background-color: $bg-color;
       display: flex;
       align-items: center;
 
@@ -82,7 +82,7 @@
     .bridge-foreign-container {
       width: 9%;
       min-width: 60px;
-      background-color: #ffffff;
+      background-color: $bg-color;
 
       .foreign-logo-container {
         height: 100%;
@@ -108,7 +108,7 @@
     .foreign-address-container {
       width: 92%;
       border-top-right-radius: 10px;
-      background-color: #ffffff;
+      background-color: $bg-color;
       display: flex;
       justify-content: flex-end;
       align-items: center;
@@ -155,7 +155,7 @@
         height: 271px;
         padding-top: 5px;
         padding-right: 5px;
-        background-color: #ffffff;
+        background-color: $bg-color;
         border-top-right-radius: 10px;
         overflow: hidden;
 
@@ -173,7 +173,7 @@
         height: 271px;
         padding-bottom: 5px;
         padding-left: 5px;
-        background-color: #ffffff;
+        background-color: $bg-color;
         border-bottom-left-radius: 10px;
         overflow: hidden;
 

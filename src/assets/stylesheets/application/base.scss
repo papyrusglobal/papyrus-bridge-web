@@ -19,7 +19,7 @@ body {
   box-sizing: border-box;
   padding-bottom: $footer-height_desktop;
   font-family: 'Work Sans', sans-serif;
-  background-color: #ffffff;
+  background-color: $bg-color;
 
   @media screen and (max-width: $tablet-width) {
     padding-bottom: $footer-height_mobile;
