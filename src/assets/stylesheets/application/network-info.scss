@@ -1,0 +1,43 @@
+.network-info {
+  background-color: white;
+  padding: 4px 0;
+
+  .container {
+    position: relative;
+
+    &:before {
+      content: '';
+      width: 0;
+      height: 0;
+      border: 12px solid white;
+      border-left-color: transparent;
+      border-right-color: transparent;
+      border-top-color: transparent;
+      position: absolute;
+      top: -33px;
+      right: 1px;
+
+      @media screen and (max-width: $mobile-width) {
+        right: auto;
+        left: calc(70% - 10px);
+      }
+    }
+  }
+
+  @media screen and (max-width: $mobile-width) {
+    padding: 4px 18px;
+  }
+
+  h4 {
+    margin: 6px 0 8px;
+    color: $color-orange;
+  }
+
+  p {
+    margin: 6px 0;
+
+    span {
+      color: $color-blue;
+    }
+  }
+}

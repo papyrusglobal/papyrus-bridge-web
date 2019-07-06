@@ -4,9 +4,8 @@
     <list default="true" id="903f04c7-2929-43e6-a1d6-cb35b69f753d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/application.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/application.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/application/bridge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/application/bridge.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/ForeignStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/ForeignStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stores/utils/web3.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/stores/utils/web3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/stylesheets/application.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,10 +20,11 @@
     <session id="-639374557">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,15 +34,15 @@
           <entry key="env" value="2" />
           <entry key="example" value="2" />
           <entry key="gitignore" value="2" />
-          <entry key="html" value="3" />
+          <entry key="html" value="4" />
           <entry key="ico" value="7" />
-          <entry key="js" value="86" />
-          <entry key="json" value="10" />
+          <entry key="js" value="120" />
+          <entry key="json" value="11" />
           <entry key="md" value="1" />
           <entry key="png" value="38" />
-          <entry key="scss" value="35" />
-          <entry key="svg" value="22" />
-          <entry key="ts" value="3" />
+          <entry key="scss" value="42" />
+          <entry key="svg" value="23" />
+          <entry key="ts" value="4" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -50,15 +50,15 @@
         <counts>
           <entry key=".env file" value="4" />
           <entry key="CSS" value="9" />
-          <entry key="HTML" value="3" />
+          <entry key="HTML" value="4" />
           <entry key="Image" value="45" />
-          <entry key="JSON" value="9" />
-          <entry key="JavaScript" value="86" />
+          <entry key="JSON" value="10" />
+          <entry key="JavaScript" value="120" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="SCSS" value="35" />
-          <entry key="SVG" value="22" />
-          <entry key="TypeScript" value="3" />
+          <entry key="SCSS" value="42" />
+          <entry key="SVG" value="23" />
+          <entry key="TypeScript" value="4" />
           <entry key="XML" value="1" />
           <entry key="tsconfig" value="1" />
         </counts>
@@ -67,8 +67,8 @@
         <counts>
           <entry key="env" value="4" />
           <entry key="gitignore" value="8" />
-          <entry key="js" value="732" />
-          <entry key="scss" value="793" />
+          <entry key="js" value="1468" />
+          <entry key="scss" value="1309" />
           <entry key="svg" value="5" />
           <entry key="xml" value="15" />
         </counts>
@@ -76,72 +76,40 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key=".env file" value="4" />
-          <entry key="JavaScript" value="732" />
+          <entry key="JavaScript" value="1468" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="SCSS" value="793" />
+          <entry key="SCSS" value="1309" />
           <entry key="SVG" value="5" />
           <entry key="XML" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="2" />
+          <entry key="TypeScriptServerServiceImpl" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="-208">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#326#365#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/index.js">
+        <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application/statistics.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stores/Web3Store.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="121" column="20" lean-forward="true" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/NoWallet.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-363">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stores/RootStore.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="500">
+              <caret line="76" column="5" lean-forward="true" selection-start-line="74" selection-start-column="4" selection-end-line="76" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -149,11 +117,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            <state relative-caret-position="266">
+              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application/header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5631">
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="616">
+              <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -162,16 +157,32 @@
         <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/helpers/variables.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="319">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="22" />
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application/network-info.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/stores/AlertStore.js">
+        <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application/color-scheme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="-150" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application/bridge.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="24" column="73" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -180,9 +191,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>forei</find>
-      <find>foreign</find>
-      <find>foreign-log</find>
       <find>left-ima</find>
       <find>l</find>
       <find>network-s</find>
@@ -210,6 +218,9 @@
       <find>title</find>
       <find>symbol</find>
       <find>bridge-home-container</find>
+      <find>You are on an unknown</find>
+      <find>You are on an unknown network on your wallet. Please select Papyrus Network or Rinkeby in order to communicate with the bridge.</find>
+      <find>show more</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -218,7 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Header.js" />
         <option value="$PROJECT_DIR$/src/components/Wallet.js" />
         <option value="$PROJECT_DIR$/src/components/BridgeNetwork.js" />
         <option value="$PROJECT_DIR$/src/components/NetworkDetails.js" />
@@ -229,7 +239,6 @@
         <option value="$PROJECT_DIR$/src/components/Loading.js" />
         <option value="$PROJECT_DIR$/src/stores/TxStore.js" />
         <option value="$PROJECT_DIR$/src/assets/stylesheets/application/modal.scss" />
-        <option value="$PROJECT_DIR$/src/assets/stylesheets/application/statistics.scss" />
         <option value="$PROJECT_DIR$/src/components/StatusPage.js" />
         <option value="$PROJECT_DIR$/src/components/StatisticsPage.js" />
         <option value="$PROJECT_DIR$/src/stores/RootStore.js" />
@@ -258,6 +267,10 @@
         <option value="$PROJECT_DIR$/src/components/WrongNetwork.js" />
         <option value="$PROJECT_DIR$/src/components/index.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/assets/stylesheets/application.scss" />
+        <option value="$PROJECT_DIR$/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/src/assets/stylesheets/application/statistics.scss" />
+        <option value="$PROJECT_DIR$/src/assets/stylesheets/application/network-info.scss" />
       </list>
     </option>
   </component>
@@ -311,6 +324,35 @@
               <item name="bridge-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="bridge-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bridge-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bridge-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bridge-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bridge-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bridge-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bridge-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bridge-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bridge-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -321,7 +363,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="vari&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/assets/stylesheets/helpers/variables.scss&#10;web3&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/stores/utils/web3.js&#10;details-logo-container&#9;null&#9;null&#10;netid&#9;null&#9;null&#10;foreign-logo-container&#9;null&#9;null&#10;.foreign-logo&#9;null&#9;null&#10;title&#9;null&#9;null&#10;Foo&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Footer.js&#10;Foot&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Footer.js&#10;Ру&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Header.js&#10;Header&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Header.js&#10;RootS&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/stores/RootStore.js&#10;App&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/App.js&#10;header&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Header.js&#10;Stati&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/StatisticsPage.js&#10;Sta&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/StatusPage.js&#10;var&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/assets/stylesheets/helpers/variables.scss&#10;Modal&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/ModalContainer.js&#10;TxS&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/stores/TxStore.js&#10;Loading&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Loading.js&#10;Bridge&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Bridge.js&#10;Status&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/StatusPage.js&#10;Stat&#9;null&#9;null&#10;base&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/assets/stylesheets/application/base.scss&#10;Brid&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Bridge.js&#10;varia&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/assets/stylesheets/helpers/variables.scss&#10;StatusP&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/StatusPage.js&#10;Heade&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Header.js&#10;Икшв&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Bridge.js&#10;loading-con&#9;null&#9;null&#10;modal&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/assets/stylesheets/application/modal.scss&#10;bridge&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/assets/stylesheets/application/bridge.scss&#10;Footer&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Footer.js" />
+    <property name="SearchEverywhereHistoryKey" value="You are on an&#9;null&#9;null&#10;vari&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/assets/stylesheets/helpers/variables.scss&#10;web3&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/stores/utils/web3.js&#10;details-logo-container&#9;null&#9;null&#10;netid&#9;null&#9;null&#10;foreign-logo-container&#9;null&#9;null&#10;.foreign-logo&#9;null&#9;null&#10;title&#9;null&#9;null&#10;Foo&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Footer.js&#10;Foot&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Footer.js&#10;Ру&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Header.js&#10;Header&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Header.js&#10;RootS&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/stores/RootStore.js&#10;App&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/App.js&#10;header&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Header.js&#10;Stati&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/StatisticsPage.js&#10;Sta&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/StatusPage.js&#10;var&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/assets/stylesheets/helpers/variables.scss&#10;Modal&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/ModalContainer.js&#10;TxS&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/stores/TxStore.js&#10;Loading&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Loading.js&#10;Bridge&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Bridge.js&#10;Status&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/StatusPage.js&#10;Stat&#9;null&#9;null&#10;base&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/assets/stylesheets/application/base.scss&#10;Brid&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Bridge.js&#10;varia&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/assets/stylesheets/helpers/variables.scss&#10;StatusP&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/StatusPage.js&#10;Heade&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Header.js&#10;Икшв&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Bridge.js&#10;loading-con&#9;null&#9;null&#10;modal&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/assets/stylesheets/application/modal.scss&#10;bridge&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/assets/stylesheets/application/bridge.scss&#10;Footer&#9;FILE&#9;file:///Users/vanpav/Documents/Projects/papyrus/bridge-web/src/components/Footer.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editorconfig.notification" value="null" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -379,12 +421,13 @@
       <workItem from="1559821615159" duration="7508000" />
       <workItem from="1561576311438" duration="745000" />
       <workItem from="1561840651719" duration="746000" />
-      <workItem from="1561974727061" duration="7854000" />
+      <workItem from="1561974727061" duration="8625000" />
+      <workItem from="1562408247664" duration="3337000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16853000" />
+    <option name="totallyTimeSpent" value="20961000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,7 +439,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1178" extended-state="6" />
+    <frame x="0" y="22" width="1920" height="1178" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960506" />
@@ -427,145 +470,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/assets/images/icons/icon-statistics.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/icons/icon-status.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/icons/icon-wallet.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application/footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="83" lean-forward="true" selection-start-line="10" selection-start-column="83" selection-end-line="10" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/socials/git@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application/socials.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicons/mstile-150x150.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicons/browserconfig.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicons/safari-pinned-tab.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicons/android-chrome-256x256.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicons/apple-touch-icon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicons/android-chrome-192x192.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicons/apple-touch-icon-precomposed.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicons/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicons/favicon-16x16.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicons/favicon-32x32.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stores/utils/gas.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stores/utils/sleep.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stores/utils/testUtils.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stores/utils/ERC20Bytes32.abi.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1068" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stores/GasPriceStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stores/TxStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/events/EventHeader.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/events/Event.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/utils/localstorage.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/utils/yn.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1271" />
@@ -599,9 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="4327" selection-start-column="4327" selection-end-column="4327" />
-          <folding>
-            <element signature="e#29273#30192#2" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -625,43 +526,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/stores/AlertStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="35" column="12" lean-forward="true" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stores/RootStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/stores/Web3Store.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="121" column="20" lean-forward="true" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/stores/utils/web3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -672,34 +536,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application/bridge.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/WrongNetwork.js" />
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="493" column="19" selection-start-line="493" selection-start-column="19" selection-end-line="493" selection-end-column="19" />
+        <state relative-caret-position="464">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/helpers/variables.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/TransferAlert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/WrongNetwork.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+        <state relative-caret-position="-1045">
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/StatusPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1074">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NoWallet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+        <state relative-caret-position="167">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/NetworkDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2126">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ModalContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Loading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -710,13 +599,246 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Fade.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state>
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/EventsListHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Disclaimer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DataBlock.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/DailyQuotaModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Configuration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BridgeStatistics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BridgeForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BridgeAddress.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Authority.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/events/Event.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/events/EventHeader.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SweetAlert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stores/Web3Store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="115" column="37" lean-forward="true" selection-start-line="115" selection-start-column="37" selection-end-line="115" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/sweetalert/typings/core.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stores/AlertStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="8" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/icons/icon-info.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Bridge.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2600">
+          <caret line="306" column="26" selection-start-line="306" selection-start-column="26" selection-end-line="306" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/stores/RootStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BridgeNetwork.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/utils/localstorage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="39" column="16" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application/color-scheme.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application/bridge.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="24" column="73" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/helpers/variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application/statistics.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="74" selection-start-column="4" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#326#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5631">
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/stylesheets/application/network-info.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
         </state>
       </provider>
     </entry>
