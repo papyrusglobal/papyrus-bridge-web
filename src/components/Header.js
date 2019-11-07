@@ -92,9 +92,9 @@ export class Header extends React.Component {
         { showInfo && (
           <div className="network-info">
             <div className="container">
-              <h4>Papyrus bridge works with two networks - Ethereum RinkebyTestnet and Papyrus Testnet.</h4>
-              <p>To transfer tonkens from Rinkeby - go to the settings of your metamask and switch the current network to Rinkeby. After that - you can send tokens from Rinkeby.</p>
-              <p>To transfer tokens from Papyrus Testnet - you need to do the reverse operation and switch the metamask to Papyrus Testnet <span>https://gateway-testnet.papyrus.network</span></p>
+              <h4>Papyrus bridge works with two networks - Ethereum and Papyrus Network.</h4>
+              <p>To transfer tonkens from Ethereum - go to the settings of your metamask and switch the current network to Ethereum. After that - you can send tokens from Ethereum.</p>
+              <p>To transfer tokens from Papyrus Network - you need to do the reverse operation and switch the metamask to Papyrus Network <span>https://gateway.papyrus.network</span></p>
             </div>
           </div>
         )}
