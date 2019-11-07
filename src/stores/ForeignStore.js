@@ -117,7 +117,8 @@ class ForeignStore {
       this.tokenContract = new this.foreignWeb3.eth.Contract(ERC677_ABI, this.tokenAddress);
       const alternativeContract = new this.foreignWeb3.eth.Contract(ERC20Bytes32Abi, this.tokenAddress);
       try {
-        this.symbol =await getSymbol(this.tokenContract)
+        const symbol = await getSymbol(this.tokenContract);
+        this.symbol = symbol === 'PPR' ? `${symbol} (ERC-20)` : symbol;
       } catch(e) {
         this.symbol = this.foreignWeb3.utils.hexToAscii(await getSymbol(alternativeContract)).replace(/\u0000*$/, '')
       }
@@ -173,7 +174,7 @@ class ForeignStore {
             const unitReceived = getUnit(this.rootStore.bridgeMode).unitForeign
             setTimeout(() => {
                 this.alertStore.pushSuccess(`${unitReceived} received on ${this.networkName} on Tx
-            <a href='${urlExplorer}' target='blank' style="overflow-wrap: break-word;word-wrap: break-word;"> 
+            <a href='${urlExplorer}' target='blank' style="overflow-wrap: break-word;word-wrap: break-word;">
             ${event.transactionHash}</a>`, this.alertStore.FOREIGN_TRANSFER_SUCCESS)}
               , 2000)
             this.waitingForConfirmation.delete(event.returnValues.transactionHash)

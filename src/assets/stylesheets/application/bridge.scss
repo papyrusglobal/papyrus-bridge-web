@@ -22,7 +22,7 @@
     width: 960px;
     height: 80px;
     display: flex;
-    background-image: linear-gradient(to right, #5c34a2, #7b5ab2);
+    background-image: linear-gradient(to right, $color-blue, $color-blue2);
     align-self: center;
 
     @media screen and (max-width: $tablet-width) {
@@ -31,25 +31,25 @@
 
     .bridge-home-container {
       width: 9%;
-      min-width: 60px;
-      background-color: #ffffff;
+      min-width: 160px;
+      background-color: $bg-color;
 
       .home-logo-container {
         height: 100%;
         border-radius: 10px;
         border-bottom-right-radius: 0;
-        background-color: #5c34a2;
+        background-color: $color-blue;
         display: flex;
         justify-content: center;
         align-items: center;
 
         .home-logo {
-          width: 52px;
+          width: 100%;
           height: 16px;
         }
 
         .foreign-logo {
-          width: 54px;
+          width: 100%;
           height: 11px;
         }
       }
@@ -58,7 +58,7 @@
     .home-address-container {
       width: 92%;
       border-bottom-left-radius: 10px;
-      background-color: #ffffff;
+      background-color: $bg-color;
       display: flex;
       align-items: center;
 
@@ -72,7 +72,7 @@
     width: 960px;
     height: 80px;
     display: flex;
-    background-image: linear-gradient(to right, #5c34a2, #7b5ab2);
+    background-image: linear-gradient(to right, $color-blue, $color-blue2);
     align-self: center;
 
     @media screen and (max-width: $tablet-width) {
@@ -81,25 +81,25 @@
 
     .bridge-foreign-container {
       width: 9%;
-      min-width: 60px;
-      background-color: #ffffff;
+      min-width: 160px;
+      background-color: $bg-color;
 
       .foreign-logo-container {
         height: 100%;
         border-radius: 10px;
         border-top-left-radius: 0;
-        background-color: #7b5ab2;
+        background-color: $color-blue2;
         display: flex;
         justify-content: center;
         align-items: center;
 
         .foreign-logo {
-          width: 54px;
+          width: 100%;
           height: 11px;
         }
 
         .home-logo {
-          width: 52px;
+          width: 100%;
           height: 16px;
         }
       }
@@ -108,7 +108,7 @@
     .foreign-address-container {
       width: 92%;
       border-top-right-radius: 10px;
-      background-color: #ffffff;
+      background-color: $bg-color;
       display: flex;
       justify-content: flex-end;
       align-items: center;
@@ -146,15 +146,18 @@
     }
 
     .left-image-wrapper {
-      background-color: #5c34a2;
+      background-color: $color-blue;
+      //min-width: 10px;
+      //min-height: 10px;
 
       .left-image {
         max-width: 238px;
         height: 271px;
         padding-top: 5px;
         padding-right: 5px;
-        background-color: #ffffff;
+        background-color: $bg-color;
         border-top-right-radius: 10px;
+        overflow: hidden;
 
         @media screen and (max-width: $tablet-width) {
           display: none;
@@ -163,16 +166,16 @@
     }
 
     .right-image-wrapper {
-      background-color: #7b5ab2;
-
+      background-color: $color-blue2;
 
       .right-image {
         max-width: 238px;
         height: 271px;
         padding-bottom: 5px;
         padding-left: 5px;
-        background-color: #ffffff;
+        background-color: $bg-color;
         border-bottom-left-radius: 10px;
+        overflow: hidden;
 
         @media screen and (max-width: $tablet-width) {
           display: none;
@@ -183,7 +186,7 @@
 
     .bridge-transfer-content {
       width: 880px;
-      background-image: linear-gradient(to right, #5c34a2, #7b5ab2);
+      background-image: linear-gradient(to right, $color-blue, $color-blue2);
       border-top-right-radius: 10px;
       border-bottom-left-radius: 10px;
       flex-shrink: 0;
@@ -201,6 +204,10 @@
         flex-shrink: 0;
         display: flex;
         flex-wrap: wrap;
+        //background-image: url('../../assets/images/bgtop.svg');
+        //background-repeat: no-repeat;
+        //background-position: bottom left;
+        //background-size: cover;
 
         @media screen and (max-width: $tablet-width) {
           width: auto;
@@ -290,13 +297,13 @@
       .network-balance {
         font-size: 13px;
         font-weight: bold;
-        color: #60db97;
+        color: $color-orange;
       }
 
       .network-show-more {
         font-size: 14px;
         font-weight: bold;
-        color: #60db97;
+        color: $color-orange;
       }
 
       .info-icon-left {
@@ -422,7 +429,7 @@
             width: 92px;
             height: 48px;
             border-radius: 3px;
-            background-color: #60db97;
+            background-color: $color-orange;
             color: #ffffff;
             font-weight: bold;
 
@@ -465,7 +472,7 @@
     }
 
     .details-logo-container {
-      width: 85px;
+      width: 160px;
       height: 80px;
       border-radius: 10px;
       border-bottom-right-radius: 0;
@@ -479,12 +486,12 @@
       }
 
       .home-logo {
-        width: 52px;
+        width: 100%;
         height: 16px;
       }
 
       .foreign-logo {
-        width: 54px;
+        width: 100%;
         height: 11px;
       }
     }
@@ -554,7 +561,7 @@
 
         .details-description {
           font-size: 14px;
-          color: #5c34a2;
+          color: $color-blue;
         }
 
         .details-description-black {
@@ -727,7 +734,7 @@
 
   .noWallet-image-container {
     width: 150px;
-    background-image: linear-gradient(to right, #7258b0, #5231a0);
+    background-image: linear-gradient(to right, $color-blue2, $color-blue);
     border-radius: 8px 0 0 8px;
 
     @media screen and (max-width: $tablet-width) {
@@ -755,7 +762,7 @@
 
     .noWallet-title {
       font-size: 44px;
-      color: #5c34a2;
+      color: $color-blue;
       line-height: 1;
 
       @media screen and (max-width: $tablet-width) {
@@ -799,7 +806,7 @@
       text-align: center;
       border-radius: 3px;
       color: #ffffff;
-      background-color: #ffaa07;
+      background-color: $color-orange;
 
       @media screen and (max-width: $small-mobile-width) {
         width: 100%;
@@ -812,7 +819,7 @@
       text-align: center;
       border-radius: 3px;
       color: #ffffff;
-      background-color: #5c34a2;
+      background-color: $color-blue;
 
       @media screen and (max-width: $small-mobile-width) {
         width: 100%;
@@ -824,8 +831,8 @@
       width: 72px;
       height: 36px;
       border-radius: 3px;
-      border: 1px solid #5c34a2;
-      color: #5c34a2;
+      border: 1px solid $color-blue;
+      color: $color-blue;
       background-color: #ffffff;
 
       @media screen and (max-width: $small-mobile-width) {
@@ -891,7 +898,7 @@
 
     .disclaimer-title {
       font-size: 44px;
-      color: #5c34a2;
+      color: $color-blue;
       line-height: 1;
 
       @media screen and (max-width: $tablet-width) {
@@ -933,7 +940,7 @@
         font-size: 15px;
         font-weight: bold;
         border-radius: 3px;
-        background-color: #60db97;
+        background-color: $color-orange;
         text-decoration: none;
       }
 

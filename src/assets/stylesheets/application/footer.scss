@@ -3,7 +3,7 @@
   position: absolute;
   bottom: 0;
   padding: 18px 0;
-  background-color: #5c34a2;
+  background-color: $color-blue;
 
   .container {
     display: flex;
@@ -27,11 +27,12 @@
 
   &-logo {
     display: block;
-    background-image: url(../images/logos/logo-poa-bottom.png);
-    @include image-2x('../images/logos/logo-poa-bottom@2x.png', 126px, 18px);
+    background-size: cover;
+    background-image: url('../images/logos/logo-papyrus.png');
+    //@include image-2x('../images/logos/logo-poa-bottom@2x.png', 126px, 18px);
     order: 0;
     left: 0;
-    width: 126px;
+    width: 94px;
   	height: 18px;
   }
 

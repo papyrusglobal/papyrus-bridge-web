@@ -11,9 +11,9 @@ export const Disclaimer = ({ onConfirmation }) => (
       <p className="disclaimer-description">
         We’re launching our POA Bridge and our UI App on a beta-testing basis. While we’ve
         worked long and hard to develop the core features of the software, we expect that our
-        users may detect bugs and other issues. Help us improve by submitting tickets to our
-        <a href="https://poanet.zendesk.com/hc/en-us/categories/360000349273-POA-Bridge" target="_blank"
-           rel="noopener noreferrer"> support page</a>.
+        users may detect bugs and other issues. Help us improve by submitting tickets to our <a
+          href="https://poanet.zendesk.com/hc/en-us/categories/360000349273-POA-Bridge" target="_blank"
+          rel="noopener noreferrer">support page</a>.
         <br/>
         <br/>
         Use of this app and the POA Bridge is at your own risk. Users may experience
