@@ -26,7 +26,7 @@
     align-self: center;
 
     @media screen and (max-width: $tablet-width) {
-      display: none
+      display: none;
     }
 
     .bridge-home-container {
@@ -76,7 +76,7 @@
     align-self: center;
 
     @media screen and (max-width: $tablet-width) {
-      display: none
+      display: none;
     }
 
     .bridge-foreign-container {
@@ -133,7 +133,6 @@
     @media screen and (max-width: $tablet-width) {
       font-size: 9px;
     }
-
   }
 
   .bridge-transfer {
@@ -183,7 +182,6 @@
       }
     }
 
-
     .bridge-transfer-content {
       width: 880px;
       background-image: linear-gradient(to right, $color-blue, $color-blue2);
@@ -212,7 +210,7 @@
         @media screen and (max-width: $tablet-width) {
           width: auto;
           flex-direction: column;
-          background-image: url("../images/arrows-down@2x.png");
+          background-image: url('../images/arrows-down@2x.png');
           background-position: center;
           background-repeat: no-repeat;
           background-size: 164px 203px;
@@ -315,7 +313,7 @@
       }
 
       .transfer-right {
-        background-image: url("../images/arrows-1.svg");
+        background-image: url('../images/arrows-1.svg');
         background-position: center;
         background-repeat: no-repeat;
 
@@ -325,7 +323,7 @@
       }
 
       .transfer-left {
-        background-image: url("../images/arrows-2.svg");
+        background-image: url('../images/arrows-2.svg');
         background-position: center;
         background-repeat: no-repeat;
 
@@ -360,7 +358,7 @@
             @extend %flex-between;
             padding: 8px 8px 8px 0;
             border-radius: 5px;
-            background-color: rgba(251,251,252, 0.2);
+            background-color: rgba(251, 251, 252, 0.2);
 
             @media screen and (max-width: $tablet-width) {
               flex-direction: column;
@@ -372,17 +370,19 @@
           .bridge-form-input-container {
             display: flex;
             justify-content: space-between;
+            align-items: center;
             width: 292px;
 
             @media screen and (max-width: $tablet-width) {
-              background-color: rgba(251,251,252, 0.2);
+              background-color: rgba(251, 251, 252, 0.2);
               border-radius: 3px 3px 0 0;
               width: 100%;
             }
           }
 
           &-input {
-            width: 165px;
+            flex: 1;
+            width: 100%;
             height: 48px;
             padding-left: 16px;
             background-color: transparent;
@@ -410,12 +410,13 @@
           }
 
           &-label {
+            flex: 0 1;
+            white-space: nowrap;
             margin: 0 10px;
             color: #ffffff;
             font-weight: bold;
             text-transform: uppercase;
-            font-size: 24px;
-            line-height: 48px;
+            font-size: 18px;
 
             @media screen and (max-width: $tablet-width) {
               font-size: 18px;
@@ -449,7 +450,6 @@
           }
         }
       }
-
     }
   }
 
@@ -497,7 +497,7 @@
     }
 
     .details-logo-container:after {
-      content: "";
+      content: '';
       position: absolute;
       height: 10px;
       width: 20px;
@@ -551,7 +551,7 @@
         justify-content: space-between;
 
         @media screen and (max-width: $tablet-width) {
-         flex-direction: column;
+          flex-direction: column;
         }
 
         .details-label {
@@ -579,7 +579,7 @@
       }
     }
     .details-body:before {
-      content: "";
+      content: '';
       position: absolute;
       height: 10px;
       width: 20px;
@@ -600,7 +600,6 @@
         display: none;
       }
     }
-
   }
 
   .transfer-alert {
@@ -658,7 +657,7 @@
         color: #5c34a2;
         font-size: 14px;
 
-        .alert-logo-box{
+        .alert-logo-box {
           width: 50px;
           height: 50px;
           border-radius: 4px;
@@ -673,7 +672,6 @@
           height: 10px;
           border-radius: 1px;
         }
-
       }
 
       .transfer-description {
@@ -685,7 +683,6 @@
       }
 
       .transfer-buttons {
-
         .transfer-confirm {
           width: 91px;
           height: 40px;
@@ -770,7 +767,6 @@
         padding-top: 2%;
         padding-bottom: 2%;
       }
-
     }
 
     .noWallet-description {
@@ -906,7 +902,6 @@
         padding-top: 2%;
         padding-bottom: 2%;
       }
-
     }
 
     .disclaimer-description {
@@ -932,7 +927,6 @@
     }
 
     .disclaimer-buttons {
-
       .disclaimer-confirm {
         width: 91px;
         height: 40px;
